@@ -1,0 +1,50 @@
+body {
+  background-color: #571515;
+  color: white;
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 14em 14em 14em 20em;
+}
+
+.container {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 3em;
+  border-radius: 3em;
+  position: relative;
+  z-index: 1;
+  -webkit-backdrop-filter: blur(25px);
+          backdrop-filter: blur(25px);
+  border: solid 1px transparent;
+  background-clip: padding-box;
+  -webkit-box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+          box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}
+
+.container h2 {
+  font-size: 1.7em;
+}
+
+.container h1, .container h2 {
+  margin: 0;
+}
+
+.container p {
+  margin: 0;
+}
+
+img {
+  position: absolute;
+  z-index: -2;
+  height: 100vh;
+  top: 0;
+  left: 100px;
+  right: 100px;
+}
+
+h1 {
+  font-size: 2em;
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+}
+/*# sourceMappingURL=style.css.map */
